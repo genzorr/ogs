@@ -46,7 +46,7 @@ Example image from tested scene:
     python3 label_point_cloud.py
     ```
 
-    Example:
+    Example (points which do not correspond to objects are in black):
     <img style="display: block; margin: auto;" src="results/labeled_point_cloud.png" width="600">
 
 5. Run `gsplat` on data extracted using `g2mesh` and put results to `g2mesh/data/custom/$SCENE/results/`.
